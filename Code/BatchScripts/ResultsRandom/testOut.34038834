@@ -1,0 +1,90 @@
+Lets start!
+
+The matrix sizes are:
+p[0]: [56x33]
+p[1]: [33x34]
+p[2]: [34x11]
+p[3]: [11x16]
+p[4]: [16x58]
+p[5]: [58x72]
+p[6]: [72x75]
+p[7]: [75x99]
+p[8]: [99x19]
+p[9]: [19x87]
+
+
+Now the evaluation results: 
+
+Results for minimum Flops:
+
+The chain is the following: [ (1, 2)(0, 2)(3, 4)(4, 5)(5, 6)(6, 7)(7, 8)(8, 9)(2, 9) ]
+
+Sequential results:
+
+The wall time that is needed for cost function F at 1000 iterations: 1.2973160
+
+
+Parallel results
+
+The wall time that is needed for cost function F with 1000 iterations: 0.5566012
+
+
+Results for random costs:
+
+The chain is the following: [ (2, 3)(1, 3)(4, 5)(6, 7)(5, 7)(3, 7)(0, 7)(7, 8)(8, 9) ]
+
+Sequential results:
+
+The wall time that is needed for cost function R at 1000 iterations: 2.6690312
+
+
+Parallel results
+
+The wall time that is needed for cost function R with 1000 iterations: 1.0569091
+
+
+Results for minimal Memory usage:
+
+The chain is the following: [ (1, 2)(0, 2)(3, 4)(4, 5)(5, 6)(6, 7)(7, 8)(8, 9)(2, 9) ]
+
+Sequential results:
+
+The wall time that is needed for cost function M at 1000 iterations: 1.3575551
+
+
+Parallel results
+
+The wall time that is needed for cost function M with 1000 iterations: 0.5070027
+
+
+Results for optimale cache usage:
+
+The chain is the following: [ (2, 3)(3, 4)(4, 5)(5, 6)(6, 7)(7, 8)(8, 9)(1, 9)(0, 9) ]
+
+Sequential results:
+
+The wall time that is needed for cost function C at 1000 iterations: 3.3193920
+
+
+Parallel results
+
+The wall time that is needed for cost function C with 1000 iterations: 0.9009861
+
+
+Results for optimzed with multiple cores:
+
+The chain is the following: [ (1, 2)(0, 2)(3, 4)(4, 5)(5, 6)(6, 7)(7, 8)(8, 9)(2, 9) ]
+
+Sequential results:
+
+The wall time that is needed for cost function P at 1000 iterations: 0.9670043
+
+
+Parallel results
+
+The wall time that is needed for cost function P with 1000 iterations: 0.5058058
+
+Done! 
+
+
+./main.x  54.59s user 2.62s system 428% cpu 13.348 total
